@@ -5028,8 +5028,7 @@ a img {
 
 .user-projects {
     margin: auto;
-    width: 50%;
-    border: 3px solid blue;
+    width: 70%;
     padding: 10px;
 }
 
@@ -5054,8 +5053,8 @@ a img {
 
 @media only screen and (min-width:550px) {
     .contents {
-        margin-left: 0;
-        width: 48%
+        margin: auto;
+        width: 90%
     }
 
     .contents,
