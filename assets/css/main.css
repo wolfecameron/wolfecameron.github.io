@@ -5027,10 +5027,7 @@ a img {
 }
 
 .user-projects {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto
+    margin: 20px auto
 }
 
 .user-projects img {
@@ -5054,14 +5051,13 @@ a img {
 
 @media only screen and (min-width:550px) {
     .contents {
-        margin: auto;
+        margin-left: 0;
         width: 48%
     }
 
     .contents,
     .contents-right {
         margin-top: -5%
-        margin: auto,
     }
 
     .contents-right,
