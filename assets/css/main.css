@@ -5051,13 +5051,14 @@ a img {
 
 @media only screen and (min-width:550px) {
     .contents {
-        margin-left: 0;
+        margin: auto;
         width: 48%
     }
 
     .contents,
     .contents-right {
         margin-top: -5%
+        margin: auto,
     }
 
     .contents-right,
