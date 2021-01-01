@@ -5020,8 +5020,20 @@ a img {
     margin: 0 auto
 }
 
+#tutorials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto
+}
+
 @media only screen and (min-width:550px) {
     #projects {
+        width: 80%
+    }
+    #tutorials {
         width: 80%
     }
 }
